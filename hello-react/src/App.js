@@ -1,8 +1,9 @@
 import React from "react";
 import MyComponent from "./MyComponent";
 
-function App() {
-  return <MyComponent />;
-}
+const App = () => {
+  const name = "하이";
+  return <MyComponent name={name} />;
+};
 
 export default App;
