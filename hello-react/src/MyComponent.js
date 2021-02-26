@@ -1,10 +1,11 @@
 import React from "react";
 
 const MyComponent = (props) => {
+  const { name, children } = props;
   return (
     <div>
-      Props 써보기, {props.name} <br />
-      children 값은 {props.children}
+      Props 써보기, {name} <br />
+      children 값은 {children}
       입니다.
     </div>
   );
