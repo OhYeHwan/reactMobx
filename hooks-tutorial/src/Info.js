@@ -15,7 +15,7 @@ const Info = () => {
       console.log("cleanup");
       console.log(name);
     };
-  }, []); //특정 값이 업데이트 될 때만 실행하고 싶을 때는 두번째 배열안에 검사하고 싶은 값을 넣어주면 된다.
+  }, [name]); //특정 값이 업데이트 될 때만 실행하고 싶을 때는 두번째 배열안에 검사하고 싶은 값을 넣어주면 된다.
 
   const onChangeName = (e) => {
     setName(e.target.value);
