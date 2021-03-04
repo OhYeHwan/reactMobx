@@ -1,8 +1,8 @@
 import React from "react";
-import MyComponent from "./MyComponent";
+import Info from "./ReducerInfo";
 
 const App = () => {
-  return <MyComponent />;
+  return <Info />;
 };
 
 export default App;

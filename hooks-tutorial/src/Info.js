@@ -28,8 +28,8 @@ const Info = () => {
   return (
     <div>
       <div>
-        <input value={name} onChange={onChangeName} />
-        <input value={nickname} onChange={onChangeNickname} />
+        <input name="name" value={name} onChange={onChangeName} />
+        <input name="nickname" value={nickname} onChange={onChangeNickname} />
       </div>
       <div>
         <div>
