@@ -1,8 +1,8 @@
-import React from "react";
-import Counter from "./ReducerCounter";
+import React, { useState } from "react";
+import Info from "./ReducerInfo";
 
 const App = () => {
-  return <Counter />;
+  return <Info />;
 };
 
 export default App;
